@@ -1,53 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="sv">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Minh Anh – UX/UI designer i Stockholm.">
+<title>minh anh.ng — UX/UI Designer</title><link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-<header>
-    <nav class="nav">
-     <h1 class = "logo"><a href="index.html">BOBO</a></h1>
-     <div class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="about.html">About Me</a>
-     </div>
-    </nav>
+<header class="site-header">
+<a class="wordmark" href="#top">minh anh.ng</a>
+<button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Öppna menyn"><span></span><span></span></button>
+<nav class="main-nav" id="main-nav" aria-label="Huvudmeny"><a href="#projekt">Projekt</a><a href="#cv">CV</a><a href="#kontakt">Kontakt</a></nav>
 </header>
-
-
-<main>
-    <section class="profile">
-        <img src="https://i.pinimg.com/736x/0f/1a/43/0f1a433044dfd7a5a397b7259ca6ca4b.jpg" alt="Profile" class="profile-img">
-
-        <div class="profile-text">
-            <h2>Hi, I'm Bo Boberg</h2>
-            <h3>UX/UI Designer</h3>
-            <p>I design simple and friendly flow.</p>
-
-        <div class="buttons">
-            <a href="about.html" class="btn">My works</a>
-            <a href="about.html#contact" class="btn secondary">Contact me</a>
-        </div>
-        </div>
-    </section>
+<main id="top">
+<section class="hero section-wrap">
+<p class="eyebrow">UX-design · Stockholm</p>
+<h1>Hej! Jag designar digitala upplevelser för alla.</h1>
+<div class="hero-bottom"><p class="intro">Jag gillar att kombinera visuell design, användbarhet och teknik för att skapa digitala upplevelser som känns lika bra som de fungerar.</p><a class="text-link" href="#projekt">Se mina projekt <span>↘</span></a></div>
+<div class="hero-mark" aria-hidden="true"><span>Nyfikenhet</span><span>+</span><span>Empati</span><span>+</span><span>Design</span></div>
+</section>
+<section class="section-wrap projects-section" id="projekt">
+<div class="section-heading"><p class="eyebrow">01 / Utvalda arbeten</p><h2>Projekt jag har arbetat med.</h2></div>
+<div class="project-grid">
+<article class="project-card"><div class="project-visual visual-grocery"><span class="visual-label">UI DESIGN</span><span class="visual-title">Express<br>Matvaruapp</span><span class="shape-circle"></span><span class="shape-pill"></span></div><div class="project-info"><h3>Express Matvaruapp</h3><p>Ett koncept för en snabb och smidig matinköpsupplevelse. Jag designade en mobilapp där användaren enkelt kan hitta sina favoritvaror, upptäcka erbjudanden och handla mat på språng.</p><ul class="tags"><li>UI-design</li><li>Mobilapp</li><li>Figma</li></ul></div></article>
+<article class="project-card"><div class="project-visual visual-cancer"><span class="visual-label">UX RESEARCH</span><div class="institution">Karolinska Institutet<br><b>Innovations AB</b></div><div class="institution second">NACKADEMIN</div><span class="visual-caption">Digitalt stöd i vardagen</span></div><div class="project-info"><h3>Cancerdagbok</h3><p>Ett UX-researchprojekt där vi undersökte cancerpatienters behov och utmaningar för att utforska hur digitalt stöd kan underlätta vardagen under behandling.</p><ul class="tags"><li>UX-research</li><li>Behovsanalys</li><li>Digitalt stöd</li></ul></div></article>
+<article class="project-card"><div class="project-visual visual-viking"><span class="visual-label">ETISK DESIGN</span><div class="viking-title">THE VIKING<br>MUSEUM</div><div class="viking-subtitle">WHERE MYTH MEETS TRUTH</div><span class="visual-caption">Quizbaserat spelkoncept</span></div><div class="project-info"><h3>The Viking Museum</h3><p>Ett quizbaserat spelkoncept för The Viking Museum, riktat mot barnfamiljer, med målet att göra vikingatiden mer engagerande och lärorik.</p><ul class="tags"><li>Etisk design</li><li>Spelkoncept</li><li>Barn & unga</li></ul></div></article>
+<article class="project-card"><div class="project-visual visual-steam"><span class="visual-label">TILLGÄNGLIGHET</span><div class="steam-mark">◉</div><div class="steam-word">STEAM</div><span class="visual-caption">Accessibility review</span></div><div class="project-info"><h3>Steam Accessibility Review</h3><p>En granskning av Steams digitala gränssnitt med fokus på tillgänglighet. Vi identifierade hinder som kan göra det svårare för användare att hitta information och navigera på plattformen.</p><ul class="tags"><li>Tillgänglighet</li><li>UI-granskning</li><li>WCAG</li></ul></div></article>
+</div></section>
+<section class="cv-section" id="cv"><div class="section-wrap cv-inner"><div><p class="eyebrow">02 / CV</p><h2>Ta en närmare titt.</h2><p class="cv-copy">Vill du veta mer om min bakgrund och erfarenhet? Ladda ner mitt CV på svenska eller engelska.</p></div><div class="cv-links"><a class="cv-link" href="assets/cv-svenska.pdf"><span><small>CV / PDF</small><strong>CV — Svenska</strong></span><span class="arrow">↗</span></a><a class="cv-link" href="assets/cv-english.pdf"><span><small>RESUME / PDF</small><strong>CV — English</strong></span><span class="arrow">↗</span></a><p class="file-note">Lägg PDF-filerna i mappen <code>assets</code> och döp dem till <code>cv-svenska.pdf</code> och <code>cv-english.pdf</code>.</p></div></div></section>
+<section class="section-wrap contact-section" id="kontakt"><p class="eyebrow">03 / Kontakt</p><h2>Har du ett projekt i åtanke<br>eller söker du en LIA-student?</h2><p>Jag vill gärna höra från dig.</p><a class="contact-link" href="mailto:din.epost@example.com">din.epost@example.com ↗</a></section>
 </main>
-
-<footer>
-    <p>Bo Boberg</p>
-    <div class="footer-links">
-        <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
-        <a href="mailto:you@email.com"><i class="fa-solid fa-square-envelope"></i>Email</a>
-        <a href="tel:+46000000000"><i class="fa-solid fa-square-phone"></i>Phone</a>
-    </div>
-</footer>
-
-
-</body>
-</html>
+<footer class="site-footer"><span>© <span id="year"></span> minh anh.ng</span><span>Designad med nyfikenhet i Stockholm.</span><a href="#top">Till toppen ↑</a></footer>
+<script src="script.js"></script></body></html>
